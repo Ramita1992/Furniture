@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Details</title>
+
+	<link rel="stylesheet" href="css/furniture.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.green.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/grt-responsive-menu1.css">
+	<link rel="stylesheet" href="css/image.css">
+
+<style>
+
+	#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  background-image: url(image/top.png);
+  width: 38px;
+  height: 38px;
+}
+</style>
+
+</head>
+<body>
+
+
+<!-- 	hearder Starts............... -->
+
+<section class="header">
+
+	<header>
+			<div class="menu-container">
+			  	<div class="grt-menu-row">
+			  		<div class="grt-menu-logo">
+			  			<a href="#" class="grt-logo"><h5>AMEZ</h5></a>
+			  		</div>
+			  	</div>
+			</div>
+	</header>
+
+
+<!-- 	Banner Starts............... -->
+
+	<section class="place">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="login-details">
+						<div class="details">
+							<h5>LOGIN</h5>
+						</div>
+
+						<div class="row">
+							<div class="col-md-6">
+								<div class="name">
+									<h4>Name</h4>
+									<h5>Ramita Dey</h5>
+								</div>
+
+								<div class="phone">
+									<h4>Phone</h4>
+									<h5>+918272930968</h5>
+								</div>
+
+								<h5 class="logout">Logout & Sign in to another account</h5>
+
+								<button class="checkout"><a href="placeorder.html">Continue Checkout</a></button>
+
+							</div>
+							<div class="col-md-6">
+								<div class="secure">
+									<h5>Advantages of our secure login</h5>
+								</div>
+
+								<div class="track">
+									<i class="fa fa-truck"></i>
+									<h5>Easily Track Orders, Hassel free Returns</h5>
+								</div>
+
+								<div class="recomend">
+									<i class="fa fa-bell"></i>
+									<h5>Get Relevent Alerts and Recommendation</h5>
+								</div>
+
+								<div class="wishlist">
+									<i class="fa fa-star"></i>
+									<h5>Wishlist, Reviews, Ratings and more.</h5>
+								</div>
+							</div>
+						</div>
+
+						<h6 class="note">Please note that upon clicking "Logout" you will lose all items in cart and will be redirected to Amez Home Page.</h6>
+
+					</div>
+
+					<div class="login-add">
+							<h6>DELIVERY ADDRESS</h6>
+					</div>
+
+					<div class="order-sum">
+								
+								<h6>ORDER SUMMARY</h6>
+					</div>
+
+					<div class="pay-opt">
+								
+								<h6>PAYMENT OPTIONS</h6>
+					</div>
+
+				</div>
+
+				<div class="col-md-4 pd">
+					<div class="price-details">
+						<h3>PRICE DETAILS</h3>
+
+						<hr class="pr">
+
+						<div class="item">
+							<h3>Price (1 Item)</h3>
+							<h3>Rs.2,500</h3>
+						</div>
+
+						<div class="discount">
+							<h3>Discount</h3>
+							<h4>-Rs.700</h4>
+						</div>
+
+						<div class="charges">
+							<h3>Delivery Charges</h3>
+							<h4>Free</h4>
+						</div>
+
+						<hr class="ch">
+
+						<div class="amount">
+							<h3>Total Amount</h3>
+							<h3>Rs.1,800</h3>
+						</div>
+
+						<hr class="am">
+
+						<h4>You Will Save Rs.700 On This Order</h4>
+
+						<i class="fa fa-shield sh"></i>
+
+					<h5 class="safe">Safe and Secure Payments.Easy returns.100% AUthentic Products.</h5>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<hr class="ad">
+
+	<div class="policy">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+				<h6 class="return">Policies: Returns Policy | Terms of use | Security | Privacy | Infringement <span>©2023-2024 Amez.com</span></h6>
+				</div>
+
+				<div class="col-md-4">
+					<h6 class="need">Need Help? Visit the <a href="">Help Centre</a> or <a href="">Contact Us</a></h6>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	</section>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+<script src="js/grt-responsive-menu.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+
+<script>
+
+	$(function () {
+  $.scrollUp({
+
+    topDistance: '100', 
+    topSpeed: 300,
+    animation: 'fade',
+    animationInSpeed: 200,
+    animationOutSpeed: 200,
+    scrollText: '',
+    activeOverlay: false,
+  });
+});
+</script>
+
+<script>
+	var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+
+</body>
+</html>
